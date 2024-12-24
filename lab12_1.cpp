@@ -1,4 +1,5 @@
 #include<iostream>
+#include <ctime>
 using namespace std;
 
 int fibonacci(int n);
@@ -9,6 +10,7 @@ int main(){
     cout << fibonacci(x);
     return 0; 
 }
+
 
 int fibonacci(int n) {
     if (n == 0) {
